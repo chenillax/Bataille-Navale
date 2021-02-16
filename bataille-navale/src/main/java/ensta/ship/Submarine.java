@@ -1,3 +1,5 @@
+package ensta.ship;
+
 class Submarine extends AbstractShip{
     public Submarine(Orientation orientation){
         super('S', NameShip.SUBMARINE, 3, orientation);

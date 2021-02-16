@@ -1,4 +1,5 @@
 package ensta;
+import ensta.ship.*;
 public class ColorUtil {
 
     /* ***

@@ -1,5 +1,6 @@
 package ensta;
 import java.util.NoSuchElementException;
+import ensta.ship.*;
 
 public enum Hit {
     MISS(-1, "manqué"),

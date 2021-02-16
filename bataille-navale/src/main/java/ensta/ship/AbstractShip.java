@@ -1,8 +1,10 @@
+ package ensta.ship;
+
  class AbstractShip {
 
     protected char label ;
     protected NameShip name ;
-    protected int taille ;
+    protected int size ;
     protected Orientation orientation;
 
     /***
@@ -14,8 +16,8 @@
     public void setName(NameShip name){
         this.name = name ;
     }
-    public void setTaille(int taille){
-        this.taille = taille;
+    public void setSize(int size){
+        this.size = size;
     }
     public void setOrientation(Orientation orientation){
         this.orientation = orientation;
@@ -29,8 +31,8 @@
     public NameShip getName(){
         return this.name  ;
     }
-    public int getTaille(){
-        return this.taille ;
+    public int getSize(){
+        return this.size ;
     }
     public Orientation getOrientation(){
         return this.orientation;
@@ -38,10 +40,10 @@
     /***
      * Constructeur
      */
-    public AbstractShip(char label, NameShip name, int taille, Orientation orientation){
+    public AbstractShip(char label, NameShip name, int size, Orientation orientation){
         this.label = label ;
         this.name = name ;
-        this.taille = taille ;
+        this.size = size ;
         this.orientation = orientation;
     }
 }

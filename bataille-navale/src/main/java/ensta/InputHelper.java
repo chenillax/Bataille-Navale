@@ -1,6 +1,7 @@
 package ensta;
 import java.util.Arrays;
 import java.util.Scanner;
+import ensta.ship.*;
 
 public final class InputHelper {
 

@@ -3,7 +3,7 @@ import java.io.*;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
-
+import ensta.ship.*;
 public class Game {
 
     /* ***
